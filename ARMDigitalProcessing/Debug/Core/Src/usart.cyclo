@@ -1,0 +1,14 @@
+../Core/Src/usart.c:42:6:MX_USART2_UART_Init	2
+../Core/Src/usart.c:70:6:HAL_UART_MspInit	3
+../Core/Src/usart.c:122:6:HAL_UART_MspDeInit	2
+../Core/Src/usart.c:230:6:generateHeaders	3
+../Core/Src/usart.c:239:9:generateSignal	6
+../Core/Src/usart.c:265:6:transferSignal	1
+../Core/Src/usart.c:282:6:HAL_UART_TxHalfCpltCallback	2
+../Core/Src/usart.c:288:6:HAL_UART_TxCpltCallback	2
+../Core/Src/usart.c:296:6:clearBuffer	1
+../Core/Src/usart.c:304:6:printSerial	2
+../Core/Src/usart.c:313:6:printNumber	1
+../Core/Src/usart.c:334:6:clearResetTerminal	1
+../Core/Src/usart.c:340:6:printWelcomeMessage	1
+../Core/Src/usart.c:344:6:printMenuMessage	1
