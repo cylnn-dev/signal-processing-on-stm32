@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="audio_processing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/hands_on/embedded_c/audio_processing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audio_processing.elf">
+				<Option output="D:/hands_on/embedded_c/audio_processing/cmake-build-debug/audio_processing.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hands_on/embedded_c/audio_processing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/USB_HOST/App"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/USB_HOST/Target"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Core/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/PDM2PCM/App"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_Audio/Addons/PDM/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/tinyusb/src"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Components/cs43l22"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Components/Common"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 audio_processing.elf"/>
+					<CompileFile command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audio_processing.elf/fast">
+				<Option output="D:/hands_on/embedded_c/audio_processing/cmake-build-debug/audio_processing.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hands_on/embedded_c/audio_processing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/USB_HOST/App"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/USB_HOST/Target"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Core/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/PDM2PCM/App"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_Audio/Addons/PDM/Inc"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/tinyusb/src"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Components/cs43l22"/>
+					<Add directory="D:/hands_on/embedded_c/audio_processing/Components/Common"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="c:\msys64\mingw64\bin\../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 audio_processing.elf/fast"/>
+					<CompileFile command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/hands_on/embedded_c/audio_processing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/hands_on/embedded_c/audio_processing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/hands_on/embedded_c/audio_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Components/Common/audio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Components/cs43l22/cs43l22.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Components/cs43l22/cs43l22.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/crc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/dma.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/gpio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/i2c.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/i2s.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/main.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/piano.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/spi.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/stm32f4_discovery_bsp.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/stm32f4xx_it.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/tim.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/tusb_config.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/usart.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/usb_descriptors.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Inc/usb_otg.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/crc.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/dma.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/gpio.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/i2c.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/i2s.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/main.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/piano.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/spi.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/stm32f4_discovery_bsp.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/stm32f4xx_it.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/syscalls.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/sysmem.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/system_stm32f4xx.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/tim.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/usart.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/usb_descriptors.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Src/usb_otg.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Core/Startup/startup_stm32f407vgtx.s">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/CMSIS/LICENSE.txt">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_Audio/Addons/PDM/Inc/pdm2pcm_glo.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_Audio/Addons/PDM/Lib/libPDMFilter_CM4_GCC_wc32.a">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/Middlewares/ST/STM32_Audio/Addons/PDM/Lib/libPDMFilter_CM4_IAR_wc32.a">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/PDM2PCM/App/pdm2pcm.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/PDM2PCM/App/pdm2pcm.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/STM32F407VGTX_FLASH.ld">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/bsp/board_api.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/CMakeLists.txt">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/audio/audio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/audio/audio_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/audio/audio_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/bth/bth_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/bth/bth_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_host.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_host.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_rndis.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_rndis_host.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/cdc_rndis_host.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/serial/cp210x.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/cdc/serial/ftdi_sio.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/dfu/dfu.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/dfu/dfu_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/dfu/dfu_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/dfu/dfu_rt_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/dfu/dfu_rt_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/hid/hid.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/hid/hid_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/hid/hid_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/hid/hid_host.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/hid/hid_host.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/midi/midi.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/midi/midi_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/midi/midi_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/msc/msc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/msc/msc_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/msc/msc_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/msc/msc_host.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/msc/msc_host.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/net/ecm_rndis_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/net/ncm.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/net/ncm_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/net/net_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/usbtmc/usbtmc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/usbtmc/usbtmc_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/usbtmc/usbtmc_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/vendor/vendor_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/vendor/vendor_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/vendor/vendor_host.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/vendor/vendor_host.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/video/video.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/video/video_device.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/class/video/video_device.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_common.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_compiler.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_debug.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_fifo.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_fifo.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_mcu.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_private.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_types.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/common/tusb_verify.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/device/dcd.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/device/usbd.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/device/usbd.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/device/usbd_control.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/device/usbd_pvt.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/hcd.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/hub.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/hub.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/usbh.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/usbh.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/host/usbh_pvt.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_freertos.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_mynewt.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_none.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_pico.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_rtthread.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/osal/osal_rtx4.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/analog/max3421/hcd_max3421.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/bridgetek/ft9xx/dcd_ft9xx.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_fs/ci_fs_kinetis.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_fs/ci_fs_mcx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_fs/ci_fs_type.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_fs/dcd_ci_fs.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/ci_hs_imxrt.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/ci_hs_lpc18_43.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/ci_hs_mcx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/ci_hs_type.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/dcd_ci_hs.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/chipidea/ci_hs/hcd_ci_hs.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/dialog/da146xx/dcd_da146xx.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ehci/ehci.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ehci/ehci.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ehci/ehci_api.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/espressif/esp32sx/dcd_esp32sx.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mentor/musb/dcd_musb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mentor/musb/hcd_musb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mentor/musb/musb_msp432e.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mentor/musb/musb_tm4c.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mentor/musb/musb_type.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/pic/dcd_pic.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/pic32mz/dcd_pic32mz.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/pic32mz/usbhs_registers.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/samd/dcd_samd.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/samg/dcd_samg.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/samx7x/common_usb_regs.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/microchip/samx7x/dcd_samx7x.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/mindmotion/mm32/dcd_mm32f327x_otg.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nordic/nrf5x/dcd_nrf5x.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nuvoton/nuc120/dcd_nuc120.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nuvoton/nuc121/dcd_nuc121.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nuvoton/nuc505/dcd_nuc505.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/khci/dcd_khci.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/khci/hcd_khci.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/lpc17_40/dcd_lpc17_40.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/lpc17_40/dcd_lpc17_40.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/lpc17_40/hcd_lpc17_40.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/nxp/lpc_ip3511/dcd_lpc_ip3511.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ohci/ohci.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ohci/ohci.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/dcd_rusb2.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/hcd_rusb2.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/rusb2_common.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/rusb2_ra.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/rusb2_rx.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/renesas/rusb2/rusb2_type.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/sony/cxd56/dcd_cxd56.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/sunxi/dcd_sunxi_musb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/sunxi/musb_def.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dcd_dwc2.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_bcm.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_efm32.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_esp32.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_gd32.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_stm32.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_type.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/dwc2_xmc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/synopsys/dwc2/hwcfg_list.md">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/template/dcd_template.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/template/hcd_template.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/ti/msp430x5xx/dcd_msp430x5xx.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/valentyusb/eptri/dcd_eptri.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/valentyusb/eptri/dcd_eptri.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/wch/ch32v307/ch32_usbhs_reg.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/portable/wch/ch32v307/dcd_usbhs.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/tinyusb.mk">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/tusb.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/tusb.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/tusb_option.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/typec/pd_types.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/typec/tcd.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/typec/usbc.c">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/tinyusb/src/typec/usbc.h">
+			<Option target="audio_processing.elf"/>
+		</Unit>
+		<Unit filename="D:/hands_on/embedded_c/audio_processing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
