@@ -1,0 +1,3 @@
+D:/hands_on/embedded_c/rtos_patched_demo/cmake-build-debug/CMakeFiles/rtos_patched_demo.elf.dir
+D:/hands_on/embedded_c/rtos_patched_demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/hands_on/embedded_c/rtos_patched_demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

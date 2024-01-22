@@ -1,0 +1,17 @@
+//
+// Created by CylNn on 16.12.2023.
+//
+
+#ifndef RTOS_PATCHED_DEMO_TINYUSB_UTILS_H
+#define RTOS_PATCHED_DEMO_TINYUSB_UTILS_H
+
+//#define SIGNAL_SIZE CFG_TUD_AUDIO_FUNC_1_EP_IN_SZ_MAX
+#define SIGNAL_SIZE 48
+#define SIGNAL_SIZE_BYTES (SIGNAL_SIZE * 2)
+#define USB_STREAM_SIZE (SIGNAL_SIZE_BYTES * 5)
+#define MIN_USB_STREAM_SIZE (1)
+#define SIGNAL_xTicksToWait 500
+
+void usb_init(void);
+
+#endif //RTOS_PATCHED_DEMO_TINYUSB_UTILS_H

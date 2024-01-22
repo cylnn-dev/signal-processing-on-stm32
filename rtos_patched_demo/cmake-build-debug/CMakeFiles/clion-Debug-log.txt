@@ -1,0 +1,14 @@
+"D:\CLion 2022.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\hands_on\embedded_c\rtos_patched_demo -B D:\hands_on\embedded_c\rtos_patched_demo\cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Custom optimizations
+-- Configuring done (0.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/hands_on/embedded_c/rtos_patched_demo/cmake-build-debug

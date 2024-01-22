@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/hands_on/embedded_c/rtos_patched_demo/Core/Startup/startup_stm32f407vgtx.s
+
+D:/hands_on/embedded_c/rtos_patched_demo/Middlewares/Third_Party/SEGGER/SystemView/Config/SEGGER_RTT_Conf.h
+intrinsics.h
+-
+machine.h
+-
+
+D:/hands_on/embedded_c/rtos_patched_demo/Middlewares/Third_Party/SEGGER/SystemView/SEGGER/SEGGER_RTT.h
+SEGGER_RTT_Conf.h
+D:/hands_on/embedded_c/rtos_patched_demo/Middlewares/Third_Party/SEGGER/SystemView/SEGGER/SEGGER_RTT_Conf.h
+stdlib.h
+-
+stdarg.h
+-
+
+D:/hands_on/embedded_c/rtos_patched_demo/Middlewares/Third_Party/SEGGER/SystemView/SEGGER/SEGGER_RTT_ASM_ARMv7M.S
+SEGGER_RTT.h
+D:/hands_on/embedded_c/rtos_patched_demo/Middlewares/Third_Party/SEGGER/SystemView/SEGGER/SEGGER_RTT.h
+
